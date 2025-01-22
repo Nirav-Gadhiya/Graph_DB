@@ -60,7 +60,7 @@ html_content = f"""
         const ctx = document.getElementById('myChart').getContext('2d');
         const data = {data_json};
         new Chart(ctx, {{
-            type: 'bar',
+            type: 'line',
             data: data,
             options: {{
                 scales: {{
